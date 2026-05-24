@@ -1,36 +1,25 @@
-# [Hugo Résumé Theme](https://github.com/HugoBlox/theme-resume)
+# 万宏飞 | 简历
 
-[![Screenshot](./.github/preview.png)](https://hugoblox.com/templates/)
+这是基于 [Hugo Blox Resume](https://github.com/HugoBlox/theme-resume) 的中文个人简历站，内容聚焦具身智能、自动驾驶仿真和实验探测数据分析经历。
 
-The Hugo **Résumé Template** empowers you to easily create your job-winning online résumé, showcase your expertise, and share your social profiles to grow your audience.
+## 常用文件
 
-️**Trusted by 250,000+ researchers, educators, and students.** Highly customizable via the integrated **no-code, block-based website builder**, making every site truly personalized ⭐⭐⭐⭐⭐
+- `content/authors/admin/_index.md`：个人简介、教育经历、项目/工作经历和技能。
+- `content/_index.md`：首页区块、按钮和显示顺序。
+- `config/_default/`：站点标题、语言、菜单、SEO 和主题配置。
+- `static/uploads/resume.pdf`：静态 PDF 文件；当前首页按钮已改为 GitHub 项目入口。
 
-[![Get Started](https://img.shields.io/badge/-Get%20started-ff4655?style=for-the-badge)](https://hugoblox.com/templates/)
-[![Discord](https://img.shields.io/discord/722225264733716590?style=for-the-badge)](https://discord.com/channels/722225264733716590/742892432458252370/742895548159492138)  
-[![Twitter Follow](https://img.shields.io/twitter/follow/GetResearchDev?label=Follow%20on%20Twitter)](https://twitter.com/GetResearchDev)
+## 本地预览
 
-[Check out the latest demo](https://hugo-resume-theme.netlify.app/) of what you'll get in less than 10 minutes, or [view the showcase](https://hugoblox.com/creators/).
+```bash
+pnpm install
+pnpm dev
+```
 
-The integrated [**Hugo Blox**](https://hugoblox.com) website builder and CMS makes it easy to create a beautiful website for free. Edit your site in the CMS (or your favorite editor), generate it with [Hugo](https://github.com/gohugoio/hugo), and deploy with GitHub or Netlify. Customize anything on your site with widgets, light/dark themes, and language packs.
+## 构建
 
-- 👉 [**Get Started**](https://hugoblox.com/templates/)
-- 📚 [View the **documentation**](https://docs.hugoblox.com/)
-- 💬 [Chat with the **Hugo Blox Builder community**](https://discord.gg/z8wNYzb) or [**Hugo community**](https://discourse.gohugo.io)
-- ⬇️ **Automatically import citations from BibTeX** with the [Hugo Academic CLI](https://github.com/GetRD/academic-file-converter)
-- 🐦 Share your new site with the community: [@GetResearchDev](https://twitter.com/GetResearchDev) [@GeorgeCushen](https://twitter.com/GeorgeCushen) [#MadeWithHugoBlox](https://twitter.com/search?q=%23MadeWithHugoBlox&src=typed_query)
-- 🗳 [Take the survey and help us improve #OpenSource](https://forms.gle/NioD9VhUg7PNmdCAA)
-- 🚀 [Contribute improvements](https://github.com/HugoBlox/hugo-blox-builder/blob/main/CONTRIBUTING.md) or [suggest improvements](https://github.com/HugoBlox/hugo-blox-builder/issues)
-- ⬆️ **Updating?** View the [Update Guide](https://docs.hugoblox.com/) and [Release Notes](https://github.com/HugoBlox/hugo-blox-builder/releases)
+```bash
+pnpm build
+```
 
-## We ask you, humbly, to support this open source movement
-
-Today we ask you to defend the open source independence of the Hugo Blox Builder and themes 🐧
-
-We're an open source movement that depends on your support to stay online and thriving, but 99.9% of our creators don't give; they simply look the other way.
-
-### [❤️ Click here to become a GitHub Sponsor, unlocking awesome perks such as _exclusive academic templates and widgets_](https://github.com/sponsors/gcushen)
-
-## Demo credits
-
-- [Unsplash](https://unsplash.com/) images
+GitHub Actions 使用 Hugo 0.148.2 extended 构建并部署到 GitHub Pages。

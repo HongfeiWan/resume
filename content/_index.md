@@ -1,5 +1,5 @@
 ---
-title: 'Home'
+title: '简历'
 date: 2023-10-24
 type: landing
 
@@ -16,8 +16,8 @@ sections:
       username: admin
       # Show a call-to-action button under your biography? (optional)
       button:
-        text: Download Résumé
-        url: uploads/resume.pdf
+        text: 查看 GitHub 项目
+        url: https://github.com/HongfeiWan
     design:
       banner:
         # Upload your cover image to the `assets/media/` folder and reference it here
@@ -34,19 +34,11 @@ sections:
       username: admin
     design:
       # Hugo date format
-      date_format: 'January 2006'
+      date_format: '2006'
       # Education or Experience section first?
       is_education_first: false
   - block: skills
     content:
-      title: Skills & Hobbies
-      username: admin
-  - block: awards
-    content:
-      title: Awards
-      username: admin
-  - block: languages
-    content:
-      title: Languages
+      title: 技能
       username: admin
 ---

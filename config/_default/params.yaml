@@ -13,9 +13,9 @@ marketing:
   seo:
     site_type: Person
     local_business_type: ''
-    org_name: ''
-    description: 'A highly-customizable Hugo résumé theme powered by Hugo Blox Builder.'
-    twitter: 'GetResearchDev'
+    org_name: '清华大学工程物理系'
+    description: '万宏飞的中文简历，聚焦具身智能、自动驾驶仿真和实验探测数据分析。'
+    twitter: ''
   analytics:
     google_analytics: ''
     baidu_tongji: ''
@@ -35,7 +35,7 @@ header:
 # Site footer
 footer:
   copyright:
-    notice: '© {year} Me. This work is licensed under {license}'
+    notice: '© {year} 万宏飞. This work is licensed under {license}'
     license:
       enable: true
       allow_derivatives: false
@@ -44,8 +44,8 @@ footer:
 
 # Localization
 locale:
-  date_format: 'Jan 2, 2006'
-  time_format: '3:04 PM'
+  date_format: '2006年1月2日'
+  time_format: '15:04'
 
 # Site features
 features:
