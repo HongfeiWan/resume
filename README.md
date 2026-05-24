@@ -1,6 +1,6 @@
 # 万宏飞 | 简历
 
-这是基于 [Hugo Blox Resume](https://github.com/HugoBlox/theme-resume) 的中文个人简历站，内容聚焦具身智能、自动驾驶仿真和实验探测数据分析经历。
+这是基于 [Hugo Blox Resume](https://github.com/HugoBlox/theme-resume) 的中文个人简历站，内容聚焦具身智能模型训练、自动驾驶强化学习和实验探测数据分析经历。
 
 ## 常用文件
 
