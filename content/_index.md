@@ -29,6 +29,10 @@ sections:
       avatar:
         size: large     # Options: small (150px), medium (200px, default), large (320px), xl (400px), xxl (500px)
         shape: rounded  # Options: circle (default), square, rounded
+  - block: embodied-training-3d
+    design:
+      spacing:
+        padding: ["0", "0", "0", "0"]
   - block: experience
     content:
       username: admin
